@@ -1,0 +1,35 @@
+Module: CGI::WAP
+
+Description:
+    CGI::WAP provides WML output and WAP methods for CGI programming, the
+    purpose of the module is to retain the familiar CGI.pm way of
+    programming to enable experienced CGI programmers to use their
+    existing skills when creating WAP applications.
+
+Copying:
+    Copyright (c) 2000 Angus Wood. All rights reserved.  This program is
+    free software; you can redistribute it and/or modify it under the same
+    terms as Perl itself.
+
+Prerequisites:
+    perl 5.002, CGI.pm and XML::Parser
+
+Build/Installation:
+    Standard build/installation supported by ExtUtils::MakeMaker(3)...
+        perl Makefile.PL
+        make
+        make test
+        make install
+    I don't know how to install Perl modules on Windows platforms, if
+    someone could provide directions so I can include them here I would
+    be grateful.
+
+Planned Enhancements:
+    Add support for /all/ attributes defined in the WML DTD, I think
+    I've covered the most important ones already, but it's nice to 
+    be complete.
+    Addition to CPAN, but I don't know if this really would fit below
+    LDS' CGI:: hierarchy.
+    
+Author:
+    Angus Wood <angus@z-y-g-o.com>
